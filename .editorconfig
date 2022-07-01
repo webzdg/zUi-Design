@@ -1,0 +1,20 @@
+# 必须在序言中指定。设置为true可停止在当前文件上搜索.editorconfig文件。该值不区分大小写。
+root = true
+
+[*]
+# 设置为latin1，utf-8，utf-8-bom，utf-16be或utf-16le可控制字符集。不建议使用utf-8-bom。
+charset = utf-8
+# 缩进是采用tab 还是 空格，不区分大小写
+indent_style = space
+# 设置为整数，定义每个缩进级别使用的列数和软选项卡的宽度。不区分大小写
+indent_size = 2
+# 设置为lf，cr或crlf以控制换行符的表示方式。该值不区分大小写。
+end_of_line = lf
+# 设置为true以确保文件在保存时以换行符结尾，为false以确保不以换行符结尾。
+insert_final_newline = true
+# 设置为true会删除文件中换行符之前的所有空白字符，而设置为false会确保不会删除所有空白字符。
+trim_trailing_whitespace = true
+
+
+[*.md]
+trim_trailing_whitespace = false
