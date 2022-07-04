@@ -398,6 +398,12 @@
       // "shouldPublish": true
       "reviewCategory": "internal",
       "shouldPublish": false
+    },
+    {
+      "packageName": "@zui/base",
+      "projectFolder": "packages/base-components",
+      "reviewCategory": "production",
+      "shouldPublish": true
     }
     // {
     //   /**
